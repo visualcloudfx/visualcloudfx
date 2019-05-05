@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'MDB React Starter',
-    description: 'MDB React starter for material design landing page',
-    siteUrl: 'https://gatsby-starter.mdbootstrap.com',
-    author: 'anna-morawska',
+    title: 'Visual Cloud FX Web Agency',
+    description:
+      ' Web Development and Digital Marketing for the Digital Transformation',
+    siteUrl: 'https://visualcloudfx.com',
+    author: 'jacob-cavazos',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,16 +22,16 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-material-design-for-bootstrap`,
-        short_name: `MDB starter`,
+        short_name: ``,
         start_url: `/`,
-        background_color: `#4B5EB8`,
+        background_color: `#FFFFFF`,
         theme_color: `#68008C`,
         display: `standalone`,
-        icon: `${__dirname}/src/images/mdb-react-small.png`, // This path is relative to the root of the site.
+        icon: `${__dirname}/src/images/LogoTransparent.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
