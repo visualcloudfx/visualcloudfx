@@ -15,11 +15,13 @@
     "gatsby-plugin-svgr": "^2.0.1",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
+    "load-script": "^1.0.0",
     "mdbreact": "4.10.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-relay": "^4.0.0"
   },
   "keywords": [
     "gatsby",
