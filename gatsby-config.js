@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Visual Cloud FX Web Agency',
+    title: 'Visual Cloud FX',
     description:
       ' Web Development and Digital Marketing for the Digital Transformation',
     siteUrl: 'https://visualcloudfx.com',
@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-material-design-for-bootstrap`,
-        short_name: ``,
+        short_name: `Visual Cloud`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#68008C`,

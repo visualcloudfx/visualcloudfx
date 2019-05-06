@@ -4,8 +4,6 @@ import Intro from '../components/mask'
 import SEO from '../components/seo'
 import Carousel from '../components/carousel'
 import AboutSection from '../components/aboutSection'
-import Card from '../components/card'
-import { MDBRow } from 'mdbreact'
 
 class App extends Component {
   render() {

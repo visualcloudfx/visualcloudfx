@@ -3,7 +3,7 @@ import { MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact'
 
 const FeaturesPage = () => {
   return (
-    <MDBContainer tag="section" className="text-center my-5">
+    <MDBContainer tag="section" className="text-center my-5 pt-2">
       <h2 className="h1-responsive font-weight-bold my-5">Our Services</h2>
       <p className="lead grey-text w-responsive mx-auto mb-5">
         We provide custom IT solutions for non technical small and medium
@@ -25,7 +25,7 @@ const FeaturesPage = () => {
           <MDBIcon icon="book" size="3x" className="cyan-text" />
           <h5 className="font-weight-bold my-4">Web and App Development</h5>
           <p className="grey-text mb-md-0 mb-5">
-            <ul>
+            <ul className="text-left">
               <li>Robust, scalable, and self-healing</li>
               <li>Node.js, React.js, and more</li>
               <li>Infrastructure as Code</li>
