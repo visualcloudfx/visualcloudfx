@@ -6,15 +6,13 @@ import {
   MDBView,
   MDBMask,
 } from 'mdbreact'
-import image4 from '../images/abstract-art1.webp'
-import image2 from '../images/abstract-art2.webp'
-import image3 from '../images/abstract-art3.webp'
 
 const CarouselPage = () => {
   return (
     <MDBCarousel
       activeItem={1}
       length={3}
+      showControls={false}
       showIndicators={false}
       className="z-depth-1 w-100"
     >

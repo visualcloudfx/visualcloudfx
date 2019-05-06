@@ -1,12 +1,5 @@
 import React from 'react'
-import {
-  MDBCol,
-  MDBContainer,
-  MDBRow,
-  MDBFooter,
-  MDBBtn,
-  MDBIcon,
-} from 'mdbreact'
+import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact'
 
 const Footer = () => {
   return (
@@ -43,7 +36,7 @@ const Footer = () => {
           className="clearfix d-md-none rgba-white-light"
           style={{ margin: '10% 15% 5%' }}
         />
-        <MDBRow className="pb-3">
+        {/* <MDBRow className="pb-3">
           <MDBCol md="12">
             <div className="mb-5 flex-center">
               <MDBIcon
@@ -84,15 +77,11 @@ const Footer = () => {
               />
             </div>
           </MDBCol>
-        </MDBRow>
+        </MDBRow> */}
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright:
-          <a href="https://www.MDBootstrap.com" alt="">
-            {' '}
-            MDBootstrap.com{' '}
-          </a>
+          &copy; {new Date().getFullYear()} Copyright: Visual Cloud FX
         </MDBContainer>
       </div>
     </MDBFooter>

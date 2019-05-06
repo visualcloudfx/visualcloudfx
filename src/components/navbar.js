@@ -4,19 +4,12 @@ import {
   MDBNavbar,
   MDBNavbarNav,
   MDBNavItem,
-  MDBNavbarBrand,
-  MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
-  MDBFormInline,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
   MDBIcon,
+  Animation,
 } from 'mdbreact'
 import { Link } from 'gatsby'
-import CustomNavLink from './customLink'
 import { ReactComponent as Logo } from '../images/logo.svg'
 
 class NavbarPage extends Component {
@@ -32,9 +25,11 @@ class NavbarPage extends Component {
     return (
       <MDBNavbar color="indigo" dark expand="md">
         <MDBContainer>
-          <Link to="/" className="navbar-brand">
-            <Logo />
-          </Link>
+          <Animation type="bounce" duration="2s">
+            <Link to="/" className="navbar-brand">
+              <Logo />
+            </Link>
+          </Animation>
           <MDBNavbarToggler
             name="navbar-toggler"
             onClick={this.toggleCollapse}
