@@ -3,8 +3,8 @@ import { MDBRow, MDBCol, MDBIcon, MDBContainer } from 'mdbreact'
 
 const FeaturesPage = () => {
   return (
-    <MDBContainer tag="section" className="text-center my-5 pt-2">
-      <h2 className="h1-responsive font-weight-bold my-5">Our Services</h2>
+    <MDBContainer tag="section" className="text-center my-3 pt-2">
+      <h2 className="h1-responsive font-weight-bold my-3">Our Services</h2>
       <p className="lead grey-text w-responsive mx-auto mb-5">
         We provide custom IT solutions for non technical small and medium
         businesses based in the public cloud at affordable prices through
