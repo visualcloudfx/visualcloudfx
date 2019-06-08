@@ -18,6 +18,7 @@
     "load-script": "^1.0.0",
     "mdbreact": "4.10.0",
     "prop-types": "^15.6.2",
+    "querystringify": "^2.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
